@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border-bottom: solid 1px black;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 0.2rem;
+}
+
+main {
+    padding: 0.5rem;
+}
