@@ -1,15 +1,39 @@
 body {
     margin: 0;
     padding: 0;
+    height: 100vh;
+    background-color: rgb(220, 220, 250);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header {
     border-bottom: solid 1px black;
-    font-size: 1.6rem;
-    font-weight: bold;
     padding: 0.2rem;
+    display: flow-root;
+    text-align: center;
+}
+
+header div {
+    margin-bottom: 0.5rem;
+}
+
+header div a {
+    font-size: 1.6rem;
+    margin: 0 1rem;
 }
 
 main {
     padding: 0.5rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 0.2rem;
+    width: calc(100% - 0.4rem);
+    text-align: center;
+}
+
+footer a {
+    margin: 0 0.8rem;
 }
