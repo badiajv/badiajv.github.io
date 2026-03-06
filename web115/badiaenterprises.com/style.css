@@ -34,19 +34,19 @@ main {
 }
 
 .main p {
-    margin-left: 1rem;
+    margin-left: 16px;
     margin-bottom: 0;
 }
 
 .name {
-    margin-top: 1.8rem;
+    margin-top: 29px;
     font-size: 1.69em;
     font-weight: bold;
     color: #D90000;
 }
 
 .job {
-    margin-top: 0.4rem;
+    margin-top: 6px;
     font-size: 1.38em;
 }
 
@@ -59,8 +59,8 @@ main {
 .middle {
     background: linear-gradient(to right, rgb(202, 28, 30), rgb(165, 18, 24));
     width: 100%;
-    margin-top: 2rem;
-    height: 3.2rem;
+    margin-top: 32px;
+    height: 51px;
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
     position: relative;
 }
@@ -69,8 +69,8 @@ main {
     font-size: 1.84em;
     font-weight: bold;
     color: #FFFFFF;
-    margin-top: 0.2rem;
-    margin-right: 2rem;
+    margin-top: 3px;
+    margin-right: 32px;
     float: right;
 }
 
@@ -80,32 +80,32 @@ main {
     position: absolute;
     display: block;
     top: 0;
-    left: -2rem;
-    width: 2rem;
-    height: 3.2rem;
+    left: -42px;
+    width: 42px;
+    height: 51px;
 }
 
 .middle::after {
     content: '';
     position: absolute;
-    top: -15px;
-    left: -2rem;
+    top: -14.5px;
+    left: -42px;
     width: 0;
     height: 0;
     border-top: 15px solid transparent;
-    border-right: 2rem solid rgb(202, 28, 30);
+    border-right: 42px solid rgb(202, 28, 30);
 }
 
 .slogan {
     font-size: 1.23em;
-    margin-top: 0.1rem;
-    margin-right: 2rem;
+    margin-top: 3px;
+    margin-right: 32px;
     float: right;
 }
 
 .bottom {
-    margin-top: 4.5rem;
-    font-size: 1.3rem;
+    margin-top: 72px;
+    font-size: 21px;
     display: flex;
 }
 
@@ -115,7 +115,7 @@ main {
 
 .address {
     color: #666666;
-    line-height: 1.57rem;
+    line-height: 1.2em;
     margin-top: 0;
 }
 
@@ -133,5 +133,5 @@ main {
 .site {
     margin-top: 0;
     color: #D90000;
-    transform: translateY(-0.3rem);
+    transform: translateY(-5px);
 }
