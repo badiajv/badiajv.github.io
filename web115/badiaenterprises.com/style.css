@@ -1,0 +1,137 @@
+@import url("./fonts/fonts.css");
+
+body {
+    background-color: #F3F3F3;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    font-family: 'Texgyreheros';
+    background: linear-gradient(to right, grey 0%, white 10%, white 100%);
+    aspect-ratio: 3.62 / 2.12;
+    width: 40em;
+}
+
+.side {
+    width: 9%;
+    height: 100%;
+    background: linear-gradient(to right, transparent 0%, transparent 80%, rgba(120, 120, 120, 0.4) 100%),
+    linear-gradient(to bottom, rgb(194, 198, 201), rgb(152, 156, 159));
+}
+
+.main {
+    width: 91%;
+    height: 100%;
+}
+
+.main p {
+    margin-left: 1rem;
+    margin-bottom: 0;
+}
+
+.name {
+    margin-top: 1.8rem;
+    font-size: 1.69em;
+    font-weight: bold;
+    color: #D90000;
+}
+
+.job {
+    margin-top: 0.4rem;
+    font-size: 1.38em;
+}
+
+.email {
+    margin-top: 0;
+    font-size: 1.3em;
+    color: #666666;
+}
+
+.middle {
+    background: linear-gradient(to right, rgb(202, 28, 30), rgb(165, 18, 24));
+    width: 100%;
+    margin-top: 2rem;
+    height: 3.2rem;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.middle p {
+    font-size: 1.84em;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 0.2rem;
+    margin-right: 2rem;
+    float: right;
+}
+
+.middle::before {
+    background: rgb(202, 28, 30);
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: -2rem;
+    width: 2rem;
+    height: 3.2rem;
+}
+
+.middle::after {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: -2rem;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 2rem solid rgb(202, 28, 30);
+}
+
+.slogan {
+    font-size: 1.23em;
+    margin-top: 0.1rem;
+    margin-right: 2rem;
+    float: right;
+}
+
+.bottom {
+    margin-top: 4.5rem;
+    font-size: 1.3rem;
+    display: flex;
+}
+
+.left {
+    width: 50%;
+}
+
+.address {
+    color: #666666;
+    line-height: 1.57rem;
+    margin-top: 0;
+}
+
+.right {
+    width: 45%;
+    margin-right: 5%;
+    text-align: right;
+}
+
+.phone {
+    margin-top: 0;
+    color: #666666;
+}
+
+.site {
+    margin-top: 0;
+    color: #D90000;
+    transform: translateY(-0.3rem);
+}
