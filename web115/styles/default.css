@@ -37,3 +37,13 @@ footer {
 footer a {
     margin: 0 0.8rem;
 }
+
+header #logo {
+    position: relative;
+    top: 0.8rem;
+}
+
+main #logo {
+    position: relative;
+    top: 1rem;
+}
