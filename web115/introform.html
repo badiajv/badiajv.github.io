@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Badia's Slithering Snake — WEB115 — Intro Form</title>
+    <link rel="stylesheet" href="styles/default.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="./scripts/intro.js" defer></script>
+    <script src="./scripts/HTMLInclude.js" defer></script>
+    <script src="https://lint.page/kit/880bd5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div data-include="components/header.html"></div>
+    <main>
+        <h2>Introduction form</h2>
+        <form>
+            <label for="first_name">First name: </label>
+            <input type="text" id="first_name" value="James"><br>
+            <label for="last_name">Last name: </label>
+            <input type="text" id="last_name" value="Badia"><br>
+            <label for="p_background">Personal Background:</label>
+            <input type="text" id="p_background" class="long" value="I was born in NC and have lived here my whole life. I have an older sister and a dog."><br>
+            <label for="a_background">Academic Background:</label>
+            <input type="text" id="a_background" class="long" value="I am currently in a junior in HS."><br>
+            <label for="computer">Primary Computer:</label>
+            <input type="text" id="computer" value="Dell Laptop"><br>
+            <span><b>Courses:</b></span>
+            <div id="courses">
+                <label for="course1"><br>Course 1:</label>
+                <input type="text" id="course1" class="long" value="N850: Web Markup and Scripting. I have always had an interest in creating websites, so I'm taking this course to get better at it!">
+                <label for="course2"><br>Course 2:</label>
+                <input type="text" id="course2" class="long" value="N801: Server-Side Javascript. I am interested in server-side development as well as website development.">
+            </div>
+            <button type="button" id="add">+</button>
+            <button type="button" id="subtract">-</button><br><br>
+            <button type="submit">Submit</button>
+        </form>
+        <p class="info"></p>
+    </main>
+    <div data-include="components/footer.html"></div>
+</body>
+</html>

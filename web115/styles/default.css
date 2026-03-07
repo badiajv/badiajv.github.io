@@ -18,8 +18,8 @@ header div {
 }
 
 header div a {
-    font-size: 1.4rem;
-    margin: 0 1rem;
+    font-size: 1.2rem;
+    margin: 0 0.7rem;
 }
 
 main {
@@ -46,4 +46,8 @@ header #logo {
 main #logo {
     position: relative;
     top: 1rem;
+}
+
+.long {
+    width: 60%;
 }
